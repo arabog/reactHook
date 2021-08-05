@@ -23,7 +23,7 @@ export default function StateHook() {
 				</button>
 			</p>
 
-			{showText && "This is the initial text"}
+			{showText && "This is the initial text using useState()"}
 		</div>
 	);
 }
