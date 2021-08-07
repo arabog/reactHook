@@ -1,6 +1,7 @@
 import React from "react"
-import StateHook from "./components/reactState"
+import StateHook from "./components/useState"
 import ReducerHook from "./components/useReducer"
+import EffectHook from "./components/useEffect"
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
 			<StateHook />
 
 			<ReducerHook />
+
+			<EffectHook />
 		</div>
 	)
 }

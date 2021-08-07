@@ -4,16 +4,20 @@ const reducerFxn = (state, action) => {
           switch (action.type) {
 
                     case "INCREMENT":
-                              return { 
-                                        count: state.count + 1, 
-                                        setText: state.setText
-                              }
+                              return (
+                                        { 
+                                                  count: state.count + 1, 
+                                                  setText: state.setText
+                                        }
+                              )
 
                     case "toggleSetText":
-                              return {
-                                        count: state.count,
-                                        setText: !state.setText
-                              }
+                              return (
+                                        {
+                                                  count: state.count,
+                                                  setText: !state.setText
+                                        }
+                              )
 
                     default:
                               return state
