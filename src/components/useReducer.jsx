@@ -36,7 +36,7 @@ export default function ReducerHook() {
 
           return (
                     <div>
-                              {state.count}
+                              <h1> { state.count }</h1>
 
                               <p>
                                         <button onClick= {

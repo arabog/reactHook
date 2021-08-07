@@ -12,7 +12,7 @@ export default function StateHook() {
 
 	return (
 		<div>
-			{count}
+			<h1>{ count }</h1>
 
 			<p>
 				<button 
