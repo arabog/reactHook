@@ -1,12 +1,24 @@
-import React from "react"
+import React, { useRef } from "react"
 import Button from "./Button"
 
-export default function useImperativeHandle() {
+export default function ImperativeHandleHook() {
+          const btnRef = useRef(null)
+
           return (
                     <div>
-                              <button>Button From Parent</button>
+                              <button
+                                        onClick= {
+                                                  () => {
+                                                            btnRef.current.alterToggle()
+                                                  }
+                                        }
+                              >
+                                        Button From Parent
+                              </button>
 
-                              <Button/>
+                              <Button 
+                                        ref={btnRef}
+                              />
                     </div>
           )
 }
