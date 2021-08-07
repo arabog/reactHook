@@ -36,6 +36,8 @@ export default function ReducerHook() {
 
           return (
                     <div>
+                              <h1> UseReducer: </h1>
+                              
                               <h1> { state.count }</h1>
 
                               <p>

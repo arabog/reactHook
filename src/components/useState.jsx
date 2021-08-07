@@ -12,6 +12,7 @@ export default function StateHook() {
 
 	return (
 		<div>
+			<h1> UseState: </h1>
 			<h1>{ count }</h1>
 
 			<p>

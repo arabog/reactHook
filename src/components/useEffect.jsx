@@ -32,6 +32,8 @@ export default function EffectHook() {
 
           return (
                     <div>
+                              <h1> UseEffect: </h1>
+
                               <h1> { info } </h1>
 
                               <h1> { count }</h1>
@@ -41,7 +43,6 @@ export default function EffectHook() {
                               >
                                         Click
                               </button>
-
                     </div>
           )
 }
