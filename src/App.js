@@ -3,6 +3,7 @@ import StateHook from "./components/useState"
 import ReducerHook from "./components/useReducer"
 import EffectHook from "./components/useEffect"
 import RefHook from "./components/useRef"
+import LayoutEffectHook from "./components/useLayoutEffect"
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
 			<EffectHook />
 
 			<RefHook />
+
+			<LayoutEffectHook />
 		</div>
 	)
 }
