@@ -13,7 +13,6 @@ export default function LayoutEffectHook() {
                     console.log(inputRef.current.value);
           }, [])
 
-
           return (
                     <div>
                               <h1> useLayoutEffect: </h1>

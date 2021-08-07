@@ -4,6 +4,7 @@ import ReducerHook from "./components/useReducer"
 import EffectHook from "./components/useEffect"
 import RefHook from "./components/useRef"
 import LayoutEffectHook from "./components/useLayoutEffect"
+import ImperativeHandle from "./components/useImperativeHandle"
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
 			<RefHook />
 
 			<LayoutEffectHook />
+
+			<ImperativeHandle />
 		</div>
 	)
 }
