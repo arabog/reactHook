@@ -16,9 +16,12 @@ export default function WithContextApi() {
                                         }
                               }
                     >
+                              <h1>With Context API Hook: </h1>
+                              
                               <Login />
 
                               <User />
+
                     </AppContext.Provider>
           )
 }
