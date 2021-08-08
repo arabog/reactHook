@@ -8,8 +8,7 @@ export default function WithContextApi() {
           const [ username, setUsername ] = useState("")
 
           return (
-                    <AppContext.Provider 
-                              value={
+                    <AppContext.Provider value={
                                         {
                                                   username,
                                                   setUsername
