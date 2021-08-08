@@ -5,6 +5,7 @@ import EffectHook from "./components/useEffect"
 import RefHook from "./components/useRef"
 import LayoutEffectHook from "./components/useLayoutEffect"
 import ImperativeHandle from "./components/useImperativeHandle"
+import WithoutContextApi from "./components/useContextApi/withoutContextApi/withoutContextApi"
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 			<LayoutEffectHook />
 
 			<ImperativeHandle />
+
+			<WithoutContextApi />
 		</div>
 	)
 }
